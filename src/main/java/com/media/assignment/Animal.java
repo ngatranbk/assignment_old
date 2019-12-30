@@ -7,8 +7,12 @@ public class Animal {
 	protected boolean canSing;
 	protected boolean canSwim;
 	protected boolean canSay;
+	protected boolean canMakingJokes;
 
 	protected String sound;
+	protected String size;
+	protected String color;
+	protected String foodType;
 
 	public Animal() {
 		super();
@@ -21,8 +25,12 @@ public class Animal {
 		this.canSing = false;
 		this.canSwim = false;
 		this.canSay = false;
+		this.canMakingJokes = false;
 
 		this.sound = "";
+		this.size = "";
+		this.color = "";
+		this.foodType = "";
 	}
 
 	protected void walk() {
@@ -62,6 +70,14 @@ public class Animal {
 			System.out.println(this.sound);
 		} else {
 			System.out.println("I cannot say");
+		}
+	}
+	
+	protected void makeJokes() {
+		if (this.canMakingJokes) {
+			System.out.println("I am making jokes");
+		} else {
+			System.out.println("I cannot make jokes");
 		}
 	}
 }
