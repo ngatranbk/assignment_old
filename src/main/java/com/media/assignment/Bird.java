@@ -7,6 +7,7 @@ public class Bird extends Animal {
 		super.initProperties();
 		this.canFly = true;
 		this.canSing = true;
+		this.canSay = true;
 	}
 
 }
