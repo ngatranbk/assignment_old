@@ -19,6 +19,8 @@ public class Animal {
 		this.canWalk = true;
 		this.canFly = false;
 		this.canSing = false;
+		this.canSwim = false;
+		this.canSay = false;
 
 		this.sound = "";
 	}

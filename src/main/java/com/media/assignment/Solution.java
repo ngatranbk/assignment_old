@@ -27,5 +27,21 @@ public class Solution {
 		rooster.say();
 		rooster.swim();
 		rooster.sing();
+		
+		// Solution A4
+		Dog dog = new Dog();
+		Cat cat = new Cat();
+		Parrot parrot = new Parrot();
+		parrot.fly();
+		parrot.swim();
+		parrot.sing();
+		parrot.setNeighbor(dog);
+		parrot.say();
+		
+		parrot.setNeighbor(cat);
+		parrot.say();
+		
+		parrot.setNeighbor(rooster);
+		parrot.say();
 	}
 }
