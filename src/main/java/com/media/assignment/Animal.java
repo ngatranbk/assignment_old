@@ -72,12 +72,52 @@ public class Animal {
 			System.out.println("I cannot say");
 		}
 	}
-	
+
 	protected void makeJokes() {
 		if (this.canMakingJokes) {
 			System.out.println("I am making jokes");
 		} else {
 			System.out.println("I cannot make jokes");
 		}
+	}
+
+	public boolean isCanWalk() {
+		return canWalk;
+	}
+
+	public boolean isCanFly() {
+		return canFly;
+	}
+
+	public boolean isCanSing() {
+		return canSing;
+	}
+
+	public boolean isCanSwim() {
+		return canSwim;
+	}
+
+	public boolean isCanSay() {
+		return canSay;
+	}
+
+	public boolean isCanMakingJokes() {
+		return canMakingJokes;
+	}
+
+	public String getSound() {
+		return sound;
+	}
+
+	public String getSize() {
+		return size;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public String getFoodType() {
+		return foodType;
 	}
 }
