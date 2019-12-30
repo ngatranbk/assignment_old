@@ -20,7 +20,7 @@ public class Animal {
 	}
 
 	protected void initProperties() {
-		this.canWalk = true;
+		this.canWalk = false;
 		this.canFly = false;
 		this.canSing = false;
 		this.canSwim = false;
